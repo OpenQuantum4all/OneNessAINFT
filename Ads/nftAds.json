@@ -1,0 +1,86 @@
+[
+  {
+    "productId": 1,
+    "name": "Barack Obama AI NFT POLYGON",
+    "brand": "ProductAds/nft-1.gif",
+    "price": "0.008 ETH",
+    "Link": "https://opensea.io/assets/matic/0x3f914f1c60d407c879397432269a220a33b81722/1"
+  },
+  {
+    "productId": 2,
+    "name": "Donald Trump AI NFT POLYGON",
+    "brand": "ProductAds/nft-2.gif",
+    "price": "0.008 ETH",
+    "Link": "https://opensea.io/assets/matic/0x570d64fee9bb81e0a7b29aeabf6cc3a3ca5ef413/2"
+  },
+  {
+    "productId": 3,
+    "name": "Elon Muisk AI NFT POLYGON",
+    "brand": "ProductAds/nft-3.gif",
+    "price": "0.008 ETH",
+    "Link": "https://opensea.io/assets/matic/0xff9d0633ed4431cfc515ee25f69f71860f78bb37/0"
+  },
+  {
+    "productId": 4,
+    "name": "Donald Trump AI NFT BASE",
+    "brand": "ProductAds/nft-4.gif",
+    "price": "0.008 ETH",
+    "Link": "https://opensea.io/assets/base/0xd1b0da928a2a98631bb4363fcb91433d01453cd7/0"
+  },
+  {
+    "productId": 5,
+    "name": "MOJO the AI NFT APE ARBITRUM",
+    "brand": "ProductAds/nft-5.avif",
+    "price": "0.003 ETH",
+    "Link": "https://opensea.io/assets/arbitrum/0x8c15a3c8ea8252e4a573460a640565b72a1e0e81/2"
+  },
+  {
+    "productId": 6,
+    "name": "Sonic AI NFT POLYGON",
+    "brand": "ProductAds/nft-6.gif",
+    "price": "0.005 ETH",
+    "Link": "https://opensea.io/assets/matic/0x7aac1fa904799a5e404b8cb31e321227c39f4f5c/0"
+  },
+  {
+    "productId": 7,
+    "name": " Business Man AI NFT ARBITRUM",
+    "brand": "ProductAds/nft-7.avif",
+    "price": "0.003 ETH",
+    "Link": "https://opensea.io/assets/arbitrum/0x0da793c6e23718bb8b3c6c7383af89f66e2f00bf/1"
+  },
+  {
+    "productId": 8,
+    "name": "Che Guavara AI NFT POLYGON",
+    "brand": "ProductAds/nft-8.gif",
+    "price": "0.008 ETH",
+    "Link": "https://opensea.io/assets/matic/0xa25afa0f2e414e7a57581d351d6dd08acce34c8b/2"
+  },
+  {
+    "productId": 9,
+    "name": "Joker AI NFT POLYGON",
+    "brand": "ProductAds/nft-9.gif",
+    "price": "1.0025 ETH",
+    "Link": "https://opensea.io/assets/matic/0xf69927f949b664a6656e8a9c6633ec41f8d66f89/0"
+  },
+  {
+    "productId": 10,
+    "name": "The Rock AI NFT POLYGON",
+    "brand": "ProductAds/nft-10.gif",
+    "price": "0.008 ETH",
+    "Link": "https://opensea.io/assets/matic/0x2e53e474b2b4e58b6ebd78f1cb4af9aee746ffed/1"
+  },
+  {
+    "productId": 11,
+    "name": "MINION AI NFT POLYGON",
+    "brand": "ProductAds/nft-11.gif",
+    "price": "0.-005 ETH",
+    "Link": "https://opensea.io/assets/matic/0x5eff6b656e0521282b3b8724685fd0d87c5365e5/0"
+  },
+  {
+    "productId": 12,
+    "name": "Business Man AI NFT BLAST",
+    "brand": "ProductAds/nft-7.avif",
+    "price": "0.003 ETH",
+    "Link": "https://opensea.io/assets/blast/0x8c15a3c8ea8252e4a573460a640565b72a1e0e81/1"
+  }
+]
