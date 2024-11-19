@@ -474,6 +474,3 @@ return (
 
 export default AINFT;
 
-};
-
-export default AINFT;
