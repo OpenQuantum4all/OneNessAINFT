@@ -4,7 +4,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import styles from './ai-nft.module.css';
 
-// Minimal ERC721 ABI with necessary functions
+// Minimal ERC721 ABI with necessary function
 const ERC721_ABI = [
   'function tokenURI(uint256) view returns (string)',
   'function ownerOf(uint256) view returns (address)',
@@ -24,6 +24,7 @@ const AINFT = () => {
   const [error, setError] = useState('');
   const [isWalletConnected, setIsWalletConnected] = useState(false);
   const [loadingState, setLoadingState] = useState('');
+  const [isNavOpen, setIsNavOpen] = useState(false); // Add this line for mobile menu
   
   // Speech Recognition States
   const [isRecording, setIsRecording] = useState(false);
@@ -280,14 +281,25 @@ Please provide information and insights about this NFT.` :
     }
   };
 
-return (
+  return (
     <div className={styles.container}>
+      {/* Mobile Menu Toggle */}
+      <div className={styles.navHeader}>
+        <Link href="/" className={styles.logo}>
+          OneNess AI NFT
+        </Link>
+        <button 
+          className={styles.menuToggle}
+          onClick={() => setIsNavOpen(!isNavOpen)}
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
+      </div>
+
       {/* Navigation */}
-      <header className={styles.header}>
+      <header className={`${styles.header} ${isNavOpen ? styles.open : ''}`}>
         <nav className={styles.navContainer}>
-          <Link href="/" className={styles.logo}>
-            OneNess AI NFT
-          </Link>
           <div className={styles.navLinks}>
             <Link href="/" className={styles.navLink}>Home</Link>
             <Link href="/ads" className={styles.navLink}>NFT Marketplace</Link>
@@ -302,6 +314,7 @@ return (
         </nav>
       </header>
 
+      {/* Keep the rest of the JSX unchanged */}
       <div className={styles.card}>
         <div className="card-body">
           <h2 className={styles.cardTitle}>AI NFT Chat</h2>
