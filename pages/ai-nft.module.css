@@ -241,9 +241,22 @@
     padding: 1rem;
   }
 
+  /* Update header for retractable navigation */
+  .header {
+    display: none;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.95);
+  }
+
+  .header.open {
+    display: block;
+    padding: 1rem 0;
+  }
+
   .navContainer {
     flex-direction: column;
     gap: 1rem;
+    padding: 1rem;
   }
 
   .navLinks {
@@ -254,6 +267,7 @@
   .navLink {
     width: 100%;
     text-align: center;
+    padding: 0.8rem;
   }
 
   .chatButton,
@@ -261,4 +275,32 @@
   .connectButton {
     width: 100%;
   }
+
+  /* Menu toggle button */
+  .navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 1001;
+  }
+
+  .menuToggle {
+    background: none;
+    border: none;
+    color: var(--hologram-primary);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
 }
+
+/* Add this line to make the banner actually hide */
+.header { display: none !important; }
+.header.open { display: block !important; }
